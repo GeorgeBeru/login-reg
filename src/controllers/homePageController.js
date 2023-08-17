@@ -1,5 +1,5 @@
 let handleHelloWorld = async (req, res) => {
-    return res.render("homepage.ejs",{
+    return res.render("index.ejs",{
         user: req.user
     });
 };
